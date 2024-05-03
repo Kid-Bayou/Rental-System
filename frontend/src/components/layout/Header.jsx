@@ -10,15 +10,15 @@ function Header() {
                     <p className="logo-name">Rental System</p>
                 </Link>
                 <nav className="nav">
-                    <NavLink to="/about">
+                    <NavLink to="/">
                         My Home
                     </NavLink>
 
-                    <NavLink to="/about">
+                    <NavLink to="/">
                         Saved
                     </NavLink>
 
-                    <NavLink to="/login">
+                    <NavLink to="/signin">
                         Sign In
                     </NavLink>
                 </nav>

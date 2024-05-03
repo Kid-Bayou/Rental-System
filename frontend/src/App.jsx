@@ -8,6 +8,7 @@ import SignIn from "./components/authentication/SignIn"
 import './App.css'
 import "./styles/Layout.css"
 import "./styles/Authentication.css"
+import "./styles/Pages.css"
 
 function App() {
 
