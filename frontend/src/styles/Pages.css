@@ -2,6 +2,12 @@
 /* ============================= */
 
 .home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.home-hero {
   position: relative;
 }
 
@@ -48,4 +54,31 @@ h3 {
   padding: 20px;
   margin-top: 10px;
   min-height: 100px;
+}
+
+.home-bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+  width: 80vw;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.section-list li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
