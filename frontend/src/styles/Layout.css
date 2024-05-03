@@ -20,53 +20,44 @@
 /* =========== HEADER ===========*/
 /* ============================= */
   
-  .main-header {
-    height: 150px;
+  .header {
+    height: 80px;
     display: flex;
-    align-items: center;
-    padding-right: 80px;
-    padding-left: 50px;
+    align-items:center;
+    justify-content: space-around;
+    border-bottom: solid #cfcdcd 0.5px;
   }
   
-  .main-header a {
+  .header a {
     text-decoration: none;
     color: #000000;
     font-weight: 600;
     padding: 5px 20px;
   }
   
-  .main-header a:hover {
+  .header a:hover {
     color: #7b7b7b;
   }
   
-  .main-header .site-logo {
-    color: black;
-    margin-right: auto;
+  .logo-container {
     display: flex;
+    align-items: center;
+    gap: 10px;
   }
-  
+
   .logo {
-    height: 4em;
-    padding: 0em;
+    height: 3em;
   }
   
   .logo-name {
-    padding: 0;
-    margin-left: 20px;
-    margin-top: 25px;
-    font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
   }
-  
-  .nav {
-    padding-top: 15px;
-  }
+
   
 /* =========== FOOTER ===========*/
 /* ============================= */
   
   footer {
-    background-color: #161616;
     height: auto;
     width: 100%;
     display: flex;
@@ -76,16 +67,6 @@
     align-items: center;
     padding: auto;
     margin: auto;
+    border-top: solid #cfcdcd 0.5px;
   }
   
-  .footer-content-conatiner {
-    color: #aaaaaa;
-    padding: 70px 150px 40px 150px;
-    font-size: 6vw;
-  }
-  
-  .copyright-container {
-    margin: 20px;
-    margin-bottom: 100px;
-    color: #aaaaaa;
-  }
