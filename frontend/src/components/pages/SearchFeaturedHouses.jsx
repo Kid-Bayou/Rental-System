@@ -1,5 +1,5 @@
 
-function FeaturedHouses() {
+function SearchFeaturedHouses() {
   return (
     <div className="featured-houses">
       <h2>Featured Houses</h2>
@@ -7,4 +7,4 @@ function FeaturedHouses() {
   );
 }
 
-export default FeaturedHouses;
+export default SearchFeaturedHouses;

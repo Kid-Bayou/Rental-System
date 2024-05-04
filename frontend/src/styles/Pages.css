@@ -82,3 +82,31 @@ h3 {
   line-height: 1.6;
   margin-bottom: 10px;
 }
+
+/* =========== SEARCH ===========*/
+/* ============================= */
+
+
+.search-filter-container {
+display: flex;
+}
+
+.search-filter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-filter-label {
+    color: black;
+}
+
+.search-filter-select {
+    width: 160px;
+    height: 40px;
+    border: solid rgb(172, 172, 172) 1px;
+    border-radius: 7px;
+    padding-left:10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
