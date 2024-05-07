@@ -1,13 +1,15 @@
 import React, { useState } from 'react'; // Added React import
-import Register from './signup'; // Renamed component to start with uppercase
+import Signup from './signup'; // Renamed component to start with uppercase
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
+        <Route path='path' component={component}/>
+        
        <p className='text-lg font-medium items-center'>sign up  </p>
-       <Register /> {/* Fixed component name to start with uppercase */}
+       <Signup />
     </>
   );
 }
